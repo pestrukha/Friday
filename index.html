@@ -101,14 +101,16 @@
                 <span class="tag tag_bordered">Culture</span>
                 <span class="tag tag_bordered">Design</span>
             </div>
-            <div class="layout-3-column">
+            <div class="layout-3-column strategy-wrapper">
                 <article class="strategy block-shadowed">
-                    <img src="./img/strategies/1.jpg" alt="strategy">
-                    <h3>Increasing Prosperity With Positive Thinking</h3>
-                    <div class="strategies__tags">
-                        <span class="tag tag_colored">Art</span> 
-                        <span class="tag tag_colored">Design</span> 
-                    </div>
+                    <img class="strategy__image" src="./img/strategies/1.jpg" alt="strategy">
+                    <div class="strategy__content">
+                        <h3 class="strategy__name">Increasing Prosperity With Positive Thinking</h3>
+                        <div class="strategies__tags">
+                            <span class="tag tag_colored">Art</span> 
+                            <span class="tag tag_colored">Design</span> 
+                        </div>
+                    </div>                    
                 </article>
                 <article class="strategy block-shadowed">
                     <img class="strategy__image" src="./img/strategies/2.jpg" alt="strategy">
@@ -201,11 +203,11 @@
                 </div>
                 <div class="contact-us__form">
                     <form action="" method="post">
-                        <div class="layout-2-column">
+                        <div class="layout-2-column contact-us__line">
                             <input type="text" name="name" placeholder="Your name">
                             <input type="email" name="email" placeholder="Your email">
                         </div>
-                        <textarea name="question" cols="30" rows="10"></textarea>
+                        <textarea name="question" placeholder="What do you want to ask?" class="contact-us__line"></textarea>
                         <div class="contact-us__button">
                             <button type="submit" class="button button_colored">Send</button>
                         </div>

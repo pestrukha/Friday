@@ -357,6 +357,11 @@ h5 {
   line-height: 2.6rem;
 }
 
+.block-shadowed {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
 .button {
   padding: 11px 25px 13px;
   font-style: normal;
@@ -373,8 +378,8 @@ h5 {
   color: #544837;
 }
 .button_bordered:hover {
-  background: #FF7549;
-  border-color: #FF7549;
+  background: #BCD0E5;
+  border-color: #BCD0E5;
 }
 .button_colored {
   background: #FF9900;
@@ -382,8 +387,8 @@ h5 {
   border: 1px solid #FF9900;
 }
 .button_colored:hover {
-  background: #BCD0E5;
-  border-color: #BCD0E5;
+  background: #FF7549;
+  border-color: #FF7549;
 }
 
 .link-button {
@@ -423,7 +428,7 @@ h5 {
 }
 
 .icon_play {
-  background-image: url("../../img/icons/play.svg");
+  background-image: url("../img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
@@ -540,11 +545,36 @@ h5 {
   justify-content: space-between;
 }
 .layout-2-column > * {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .contact-us {
   background: #FFEEE1;
+  padding: 62px 82px;
+}
+
+.contact-us__form input, .contact-us__form textarea {
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  padding: 10px 21px;
+  border-radius: 5px;
+}
+.contact-us__form input:focus, .contact-us__form textarea:focus {
+  border-color: #FF9900;
+  outline: none;
+}
+.contact-us__form textarea {
+  resize: none;
+  width: 100%;
+  height: 160px;
+}
+
+.contact-us__line {
+  margin-bottom: 19px;
+}
+
+.contact-us__button > * {
+  min-width: 117px;
 }
 
 .promo {
@@ -635,6 +665,18 @@ h5 {
 
 .strategies__tags {
   margin-bottom: 31px;
+}
+
+.strategy-wrapper > * {
+  margin-bottom: 30px;
+}
+
+.strategy__content {
+  padding: 24px 33px 26px;
+}
+
+.strategy__name {
+  margin: 0 0 29px;
 }
 
 /*# sourceMappingURL=style.css.map */
