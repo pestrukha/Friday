@@ -17,7 +17,10 @@ h1 {
 }
 
 h2 {
-    @include font ($size: 3.4rem, $height: 4.6rem);
+    @include font($size: 3.4rem, $height: 4.6rem);
+    @include media-mobile {
+        @include font($height: 3.3rem, $size: 2.4rem);
+    }
 }
 
 h3 {
